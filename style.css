@@ -143,4 +143,8 @@
     font-size: 18px;
     transition: box-shadow .3s;
   }
-  
+  #language_option{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
