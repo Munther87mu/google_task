@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="raw-item">
+            <img src="googlelogo.png" width="70px" style="margin-left: -10px;"/>
+        </div>
+    </div>
+    <div>
+        <div class="raw-item">
+            <p id="advacned-par">Advanced Search</p>
+        </div>
+    </div>
+    <div style="border-bottom: 1px solid #ebebeb"></div>
+    <form action="https://google.com/search">
+    <div class="row">
+        <div class="column">
+          <p>Find pages with...</p>
+        </div>
+        <div class="column">
+          <h1>To do this in the search box.</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="column" style="width: 25%;">
+                <p>all these words:</p>
+              </div>
+              <div class="column" style="width: 75%;">
+                <input type="text" name="as_q" class="advanced-search-bar">
+                <input hidden type="text" name="as_qdr" value="all">
+                <input hidden type="text" name="as_occt" value="any">
+                <input hidden type="text" name="safe" value="images">              </div>
+        </div>
+        <div class="column">
+            <p>Type the important words: tri-colour rat terrier</p>
+          </div>
+    </div>
+    <div class="row" style="margin-top: -1px; padding-top: 10px;">
+        <div class="column">
+            <div class="column" style="width: 25%;">
+                <p>this exact word or phrase:</p>
+              </div>
+              <div class="column" style="width: 75%;">
+                <input type="text" name="as_epq" class="advanced-search-bar">
+                <input hidden type="text" name="as_qdr" value="all">
+                <input hidden type="text" name="as_occt" value="any">
+                <input hidden type="text" name="safe" value="images">
+              </div>
+        </div>
+        <div class="column">
+            <p>Put exact words in quotes: "rat terrier"</p>
+          </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="column" style="width: 25%;">
+                <p>any of these words:</p>
+              </div>
+              <div class="column" style="width: 75%;">
+                <input type="text" name="as_oq" class="advanced-search-bar">
+                <input hidden type="text" name="as_qdr" value="all">
+                <input hidden type="text" name="as_occt" value="any">
+                <input hidden type="text" name="safe" value="images">
+              </div>
+        </div>
+        <div class="column">
+            <p>Type OR between all the words you want: miniature OR standard</p>
+          </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="column" style="width: 25%;">
+                <p>none of these words:</p>
+              </div>
+              <div class="column" style="width: 75%;">
+                <input type="text" name="as_eq" class="advanced-search-bar">
+                <input hidden type="text" name="as_qdr" value="all">
+                <input hidden type="text" name="as_occt" value="any">
+                <input hidden type="text" name="safe" value="images">              </div>
+        </div>
+        <div class="column">
+            <p style="padding-bottom: -10px; margin-bottom:-10px;">Put a minus sign just before words that you don't want:</p>
+            <p style="padding-top: -10px; margin-top: 0;"> -rodent, -"Jack Russell"</p>
+          </div>
+    </div>
+    <div class="advanced-search-buttons">
+        <input type="submit" value="Advanced Search">
+    </div>
+</form>
+</body>
+</html>
